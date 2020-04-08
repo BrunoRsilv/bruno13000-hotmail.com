@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/carrinho.css">
+    <title>Brasil Vinil - Carrinho</title>
+</head>
+<body>
+
+
+<div class="navbar" style="background-color: orange;">
+    <div class="navbar-brand" style="display: flex;">
+     <img src="./img/logo.png" style="width: 220px; height: 75px; margin-right: 200px;"></img>
+     </div>
+     
+     <div class="icones">
+     <div class="icon_carrinho" style="color: white;">
+     <img src="./icon/cart-sharp.svg" style="width: 40px; ">
+     <p>Carrinho</p>
+     </div>
+
+     <div class="icon_indentifique">
+     <img src="./icon/person-sharp.svg" style="width: 40px;  ">
+      <p>Identificação</p>
+     </div>
+
+     <div class="icon_entrega">
+     <img src="./icon/truck.svg" style="width: 40px; ">
+     <p>Entrega</p>
+     </div>
+
+     <div class="icon_pagamento">
+     <img src="./icon/credit-card.svg" style="width: 40px;">
+     <p>Pagamento</p>
+     </div>
+  </div>
+</div>
+ 
+<h4 style="margin-left: 10%; margin-top: 3%;">Meus Produtos</h4>
+<div class="tabela" style="text-align: center; justify-content: center; align-items: center; margin-top:2%;">
+<table class="table"  style="width: 80%; text-align: center; justify-content: center; align-items: center; display: inline-table;">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Nome</th>
+        <th scope="col">Descrição</th>
+        <th scope="col">Qtd.</th>
+        <th scope="col">Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><img src="./img/6.jpg" width="60px"></th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>
+        <select name="qtd" id=""> 
+            <option value="qt">1</option>
+        </select></td>
+        <td>R$400,00</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><img src="./img/6.jpg" width="60px"></th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>
+        <select name="qtd" id=""> 
+            <option value="qt">1</option>
+        </select></td>
+        <td>R$400,00</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="sub">
+<p style="font-weight: bold;">Subtotal (4 Itens)</p>
+<p style="font-size: 12px; color: silver;">Cosulte condições de Pagamento</p>
+<p style="font-size: 20px; color: orange; font-weight: bold;">R$ 800,00</p>
+<br>
+</div>
+
+<div class="botao">
+  <a href="login.html"> <button type="button" class="btn btn-success">Continuar</button></a>
+  <a href="entrega.html">></a>
+</div>
+
+  Quando não temos produtos no carrinho -->
+    <div class="texto">
+    <h4>Seu Carrinho Está Vazio</h4>
+    <img src="./icon/alert-triangle.svg">
+    <br>
+    <p style="margin-top: 25px;">Volte para <a href="home.html">Página Inícial</a> ou para <a href="categoria.html">Páginas de Categorias</a></p>
+    </div>
+
+
+
+
+     </body>
+</html>
