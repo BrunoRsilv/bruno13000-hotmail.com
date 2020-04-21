@@ -1,61 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
-    <title>Usuário</title>
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/cadusuario.css">
+    <title>Brasil Vinil - Cadastro</title>
 </head>
-<div class="container">
-    <div class="row align-items-center">
-    <nav class= "navbar-dark-bg-dark">
-        <a class="navbar-brand" style='display: flex;  align-items: center; justify-content: center; margin-left: 12px;'>
-            <img src="img/logo.jpg" width="26%" >
-            
-        </a>
-    </nav> 
-</div>
-            <h5><center>Cadastro de Usuário</center></h5>
+
+      <div class="col" style="background-color:orange; display: flex;">
+        <div class="navbar-brand" style="display: flex;">
+         <img src="./img/logo.png" style="width: 220px; height: 75px; margin-right: 200px;"></img>
+        
+        <div class="login">
+          <a href="carrinho.html" style= " color: white; font-weight: bold;"> Carrinho | </a> 
+        <a href="login.html" style= " color: white; font-weight: bold;"> Login </a> 
+      </div>
+         <br>
+    </div>
+      </div>
+    <div class="botoes" >
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Disco</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Melhores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Etc</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">App</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    <body>
+      <div class="container">
+    <div style='text-align: center;margin: 20px auto; margin-bottom: 60px; font-family: Merriweather Sans, sans-serif;'><h4>Cadastro de Usuários</h4></div>
             <form login>
+  
+              <div class="row">
+
+                <div class="col-6"> 
+                    <label for="exampleFormControlInput1"> <b> Nome:</b></label>
+                    <input type="NomeProd" class="form-control form-control-sm"  placeholder="Nome do Produto">
+                    <br>
+                    </div>
             
-                <div class="login">
-            Nome:
-            <input class="form-control" type="text" placeholder="Insira seu Nome" size=20px> <br>
-            Ultimo Nome:
-            <input class="form-control" type="text" placeholder="Insira seu Ultimo Nome"> <br>
+                    <div class="col-6"> 
+                        <label for="exampleFormControlInput1"> <b> Ultimo Nome </b></label>
+                        <input type="text" class="form-control form-control-sm" placeholder="Artista do Produto">
+                        </div>
+                </div>
+                
+            
 
-            <div class="sexo">
-            Data Nascimento
-            <input type="date" > 
-            Sexo 
-            <select name="sexo">
-            <option value="F">Feminino</option>
-            <option value="M">Masculino</option>
-            <option value="O"> Outros</option>
-            </select> <br>
+                <div class="row">
+
+                  <div class="col-6"> 
+                      <label for="exampleFormControlInput1"> <b> Data de Nascimento</b></label>
+                      <input type="date" class="form-control form-control-sm">
+                      <br>
+                      </div>
+              
+                      <div class="col-6"> 
+                          <label for="exampleFormControlInput1"> <b> Sexo: </b></label>
+                          <select name="sexo">
+                            <option value="F">Feminino</option>
+                            <option value="M">Masculino</option>
+                            <option value="O"> Outros</option>
+                            </select>
+                          </div>
+                  </div>
+                  
+            
+           
+        <div class="row">
+
+          <div class="col-6"> 
+              <label for="exampleFormControlInput1"> <b> Telefone:</b></label>
+              <input type="NomeProd" class="form-control form-control-sm"  placeholder="Insira seu Telefone">
+              <br>
+              </div>
+      
+              <div class="col-6"> 
+                  <label for="exampleFormControlInput1"> <b> Celular</b></label>
+                  <input type="text" class="form-control form-control-sm" placeholder="Insira seu Celular">
+                  </div>
+          </div>
+          
+  
+
+          <div class="row">
+
+            <div class="col-6"> 
+                <label for="exampleFormControlInput1"> <b> Lougradouro:</b></label>
+                <input type="NomeProd" class="form-control form-control-sm"  placeholder="Insira seu Enderço">
+                <br>
+                </div>
+        
+                <div class="col-6"> 
+                    <label for="exampleFormControlInput1"> <b>Bairro</b></label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Insira seu Bairro">
+                    </div>
             </div>
-            Telefone:
-            <input class="form-control" type="text" placeholder="XX XXXXXXXX"><br>
-            Celular:
-            <input class="form-control" type="text" placeholder="XX XXXXXXXXX"><br>
+            
 
-            Logradouro
-            <input class="form-control" type="text" placeholder="Insira seu Endereço"><br>
+            <div class="row">
 
-            Bairro
-            <input class="form-control" type="text" placeholder="Insira seu Bairro"> <br>
+              <div class="col-6"> 
+                  <label for="exampleFormControlInput1"> <b> Nº:</b></label>
+                  <input type="NomeProd" class="form-control form-control-sm"  placeholder="Insira o Número ">
+                  <br>
+                  </div>
+          
+                  <div class="col-6"> 
+                      <label for="exampleFormControlInput1"> <b> Cidade</b></label>
+                      <input type="text" class="form-control form-control-sm" placeholder="Insira sua Cidade">
+                      </div>
+              </div>
+              
 
-            N°
-            <input class="form-control" placeholder="*" required=""  type="text"> <br>
-             
-            Cidade
-            <input class="form-control" placeholder="Insira sua Cidade" type="text"> <br>
+            
+              <div class="row">
 
-            Estado
+                <div class="col-6"> 
+                    <label for="exampleFormControlInput1"> <b> Estado:</b></label>
+                  
             <select name="uf">
                 <option value="AC">Acre</option>
 	<option value="AL">Alagoas</option>
@@ -84,17 +174,35 @@
 	<option value="SP">São Paulo</option>
 	<option value="SE">Sergipe</option>
 	<option value="TO">Tocantins</option>
-            </select> <br>
+            </select>
+            </div>
 
-            CEP
-            <input class="form-control" placeholder="Insira seu CEP" type="text"> <br>
+        
+    <div class="col-6"> 
+        <label for="exampleFormControlInput1"> <b> Cep</b></label>
+        <input type="text" class="form-control form-control-sm" placeholder="Insira seu CEP">
+        </div>
+</div>
+           
+          <div class="row">
 
-            Complemento
-            <input class="form-control" placeholder="Algum Complemento" type="text"> <br>
-    </div>
+            <div class="col-6"> 
+                <label for="exampleFormControlInput1"> <b> Complemento:</b></label>
+                <input type="NomeProd" class="form-control form-control-sm"  placeholder="Opcional">
+                <br>
+                </div> 
+              </div>
+            </div>
+<div class="botoes2">
+
+ <a href="home.html"> <button type="button" class="btn btn-outline-warning" style="margin-right: 20px;">Voltar</button></a>
+ <a href="home.html"> <button type="button" class="btn btn-success">Continuar</button></a>
+</div>
             </form>
-          </div>
-            <script src="js/jquery-3.4.1.slim.min.js"></script>
-                <script src="js/popper.min.js"></script>
-                <script src="boostrap/js/bootstrap.min.js"></script>     
-    </html>
+
+         </body>
+          <script src="js/jquery-3.4.1.slim.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="boostrap/js/bootstrap.min.js"></script>     
+
+                </html>

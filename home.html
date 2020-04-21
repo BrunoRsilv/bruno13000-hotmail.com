@@ -13,139 +13,132 @@
 </head>
 
 <body>
+    <div class="container-sm-md">
+        <div class="col">
+            <div class="navbar-brand-sm" style="display: flex;">
+                <img src="./img/logo.png" style="width: 220px; height: 75px; margin-right: 70%;"></img>
+                <div class="login">
+                    <a href="carrinho.html" style=" color: orange; font-weight: bold;"> Carrinho | </a>
+                    <a href="login.html" style=" color: orange; font-weight: bold;"> Login </a>
 
-    <div class="navbar">
-        <div class="navbar-brand" style="display: flex;">
-         <img src="./img/logo.png" style="width: 220px; height: 75px; margin-right: 200px;"></img>
-         <div class="row">
-          <form class="form" >
-            <div class="input-group" style="margin-left: 250px; margin-top: 20px; size: 100px;">
-                <input class="form-control" type="text" placeholder="Pesquise seu Disco..." aria-label="Search" style="padding-left: 20px; border-radius: 40px;" id="mysearch">
-                <div class="input-group-addon" style="margin-left: -50px; z-index: 3; border-radius: 40px; background-color: transparent; border:none;">
-                  <button class="btn btn-warning btn-sm" type="submit" style="border-radius: 20px;" id="search-btn"><i class="fa fa-search"></i></button>
+                    <br>
                 </div>
             </div>
-          </form>
         </div>
-        </div>
-        <div class="login" style="margin-right:10px;">
-          <a href="carrinho.html" style= " color: orange; font-weight: bold;"> Carrinho | </a> 
-        <a href="login.html" style= " color: orange; font-weight: bold;"> Login </a> 
+        <div class="botoes">
+            <ul class="nav nav-pills nav-fill nav-sm-md">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Disco</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Melhores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Etc</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadprod.html">Produto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listausuario.html">Usuário</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </li>
 
-         <br>
+            </ul>
+        </div>
+        <div class="banner" style="width:100%; height: 78px; background-color: orange; color:white; font-weight: bold; font-size: 100px;">
+
+            <H4 style="line-height: 70px;"><center> COMPRE NO APLICATIVO </center></H4>
+        </div>
+        <br><br><br>
+        <div class="carroselCentro">
+            <div class="carrosel-sm-md">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/Banner.jpg" class="d-block w-70  " alt="Imagem1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/banner2018.jpg" class="d-block w-70  " alt="Imagem2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/banner3.jpg" class="d-block w-70 " alt="Imagem3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <h4><center>Discos </center></h4>
+
+
+
+        <div class="produtos">
+            <div class="card-deck">
+                <a href="descricao.html">
+                    <div class="card" style=" max-width: 30rem; max-height: 200px; min-height: 200px;">
+                        <img src="./img/meu.jpg" class="card-img-top" alt="..." width="300px" height="200px">
+                        <div class="card-body">
+
+                            <h5 class="card-title">NOME</h5>
+                            <p class="card-text">Descrição </p>
+                            <p class="card-text"><small class="text-muted">R$89,00</small></p>
+                        </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="./img/4.jpg" class="card-img-top" alt="..." width="300px" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Descrição</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/5.jpg" class="card-img-top" alt="..." width="300px" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Descrição</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/4.jpg" class="card-img-top" alt="..." width="300px" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Descrição</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/6.jpg" class="card-img-top" alt="..." width="300px" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Descrição</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
     </div>
-      </div>
-    <div class="botoes" >
-      <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Disco</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Melhores</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Etc</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre Nós</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">App</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-        
-      </ul>
     </div>
-    <div class="banner" style="width:100%; height: 78px; background-color: orange; color:white; font-weight: bold; font-size: 100px;">
-      <H4 style="line-height: 70px;"><center> COMPRE NO APLICATIVO </center></H4>
-      </div>
-    <br><br><br>
-    <div class="carroselCentro">
-    <div class="carrosel">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="./img/Banner.jpg" class="d-block w-70  " alt="Imagem1">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/banner2018.jpg" class="d-block w-70  " alt="Imagem2">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/banner3.jpg" class="d-block w-70 " alt="Imagem3">
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-    <br><br>
-      <h4><center>Discos </center></h4>
-    
-    
-
-<div class="produtos">
-    <div class="card-deck" >
-    <a href="descricao.html">
-    <div class="card" style=" max-width: 30rem; max-height: 200px; min-height: 200px;">
-        <img src="./img/meu.jpg" class="card-img-top" alt="..." width="300px" height="200px">
-        <div class="card-body">
-        
-          <h5 class="card-title">NOME</h5>
-          <p class="card-text">Descrição </p>
-          <p class="card-text"><small class="text-muted">R$89,00</small></p>
-        </div>
-      </a>
-       </div>
-      
-       <div class="card">
-        <img src="./img/4.jpg" class="card-img-top" alt="..." width="300px" height="200px">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Descrição</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>    
-      </div>
-
-      <div class="card">
-        <img src="./img/5.jpg" class="card-img-top" alt="..." width="300px" height="200px">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Descrição</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>    
-      </div>
-
-      <div class="card">
-        <img src="./img/4.jpg" class="card-img-top" alt="..." width="300px" height="200px">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Descrição</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>    
-      </div>
-
-      <div class="card">
-        <img src="./img/6.jpg" class="card-img-top" alt="..." width="300px" height="200px">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Descrição</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>    
-      </div>
-    </div>
-</div>
 
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="boostrap/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 </body>
 </html>
